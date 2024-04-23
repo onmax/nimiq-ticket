@@ -11,5 +11,10 @@ export default defineNuxtConfig({
   auth: {},
   hub: {
     database: true,
+  },
+  nitro: {
+    experimental: {
+      openAPI: true
+    }
   }
 })
