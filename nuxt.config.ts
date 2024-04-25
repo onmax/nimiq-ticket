@@ -6,7 +6,8 @@ export default defineNuxtConfig({
     "@unocss/nuxt",
     "@vueuse/nuxt",
     "@nuxt/eslint",
-    "@nuxthub/core"
+    "@nuxthub/core",
+    "@tresjs/nuxt"
   ],
   auth: {},
   hub: {
@@ -16,5 +17,8 @@ export default defineNuxtConfig({
     experimental: {
       openAPI: true
     }
+  },
+  tres: {
+    modules: ['']
   }
 })
